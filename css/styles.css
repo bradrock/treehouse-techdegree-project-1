@@ -120,7 +120,6 @@ h1 {
   font-size: 8pt;
 }
 
-
 .category:before {
   content: '\A(';
   white-space: pre-wrap;

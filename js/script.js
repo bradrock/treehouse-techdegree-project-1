@@ -127,3 +127,7 @@ function printQuote()
 ***/
 
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
+
+
+//automatically print a new quote every 20 seconds
+setInterval(printQuote, 20000);
