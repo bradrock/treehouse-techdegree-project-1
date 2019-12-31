@@ -13,38 +13,50 @@ quotes.push({}, {}, {}, {}, {}, {}, {}, {}, {});
 
 quotes[0].quote = "Never put off till tomorrow what may be done day after tomorrow just as well.";
 quotes[0].source = "Mark Twain";
+quotes[0].category = "famous authors"
 
 
 quotes[1].quote = "Poets have been mysteriously silent on the subject of cheese.";
 quotes[1].source = "G. K. Chesterton";
 quotes[1].citation = "Alarms and Discursions"
+quotes[1].category = "famous authors"
 
 
 quotes[2].quote = "When you come to a fork in the road, take it.";
 quotes[2].source = "Yogi Berra";
+quotes[2].category = "athletes";
 
 
 quotes[3].quote = "I want to play the guitar very badly, and I do play the guitar very badly.";
 quotes[3].source = "Bono";
+quotes[3].category = "musicians";
 
 
 quotes[4].quote = "We are not an endangered species ourselves yet, but this is not for lack of trying.";
 quotes[4].source = "Douglas Adams";
 quotes[4].citation = "Last Chance To See";
 quotes[4].year = 1992;
+quotes[4].category = "famous authors";
 
 
 quotes[5].quote = "All music is folk music. I ain’t never heard a horse sing a song.";
 quotes[5].source = "Louis Armstrong";
+quotes[5].category = "musicians";
+
 
 quotes[6].quote = "I don’t know anything about music. In my line you don’t have to.";
 quotes[6].source = "Elvis Presley";
+quotes[6].category = "musicians";
+
 
 quotes[7].quote = "My career was sputtering until I did a 360 and got headed in the right direction.";
 quotes[7].source = "Tracy McGrady";
+quotes[7].category = "athletes";
+
 
 quotes[8].quote = "I've never lost a game. I just ran out of time.";
 quotes[8].source = "Michael Jordan";
+quotes[8].category = "athletes";
 
 
 
@@ -85,7 +97,7 @@ function printQuote()
 
   }
 
-  quoteHTMLstring += '</p>';
+  quoteHTMLstring += '<span class = "category">' + selectedQuote.category + '</p>';
 
   document.getElementById("quote-box").innerHTML = quoteHTMLstring;
 

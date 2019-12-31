@@ -1,4 +1,4 @@
-/** 
+/**
  * Treehouse FSJS Techdegree
  * Random Quote Generator - CSS
  */
@@ -113,6 +113,22 @@ h1 {
 .year:before {
   content: ", ";
   font-style: normal;
+}
+
+.category {
+  font-style: italic;
+  font-size: 8pt;
+}
+
+.category:before {
+  content: '\A(';
+  white-space: pre-wrap;
+  font-style: italic;
+}
+
+.category:after {
+  content: ')';
+  font-style: italic;
 }
 
 @media (min-width: 768px) {
