@@ -101,6 +101,23 @@ function printQuote()
 
   document.getElementById("quote-box").innerHTML = quoteHTMLstring;
 
+
+
+//make the background a random color
+
+  var red;
+  var green;
+  var blue;
+  var rgbColor;
+
+  red = Math.floor(Math.random() * 256 );
+  green = Math.floor(Math.random() * 256 );
+  blue = Math.floor(Math.random() * 256 );
+  rgbColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
+
+
+  document.getElementsByTagName("BODY")[0].style.backgroundColor = rgbColor;
+
 }
 
 
