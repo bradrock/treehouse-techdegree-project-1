@@ -3,12 +3,13 @@ Treehouse FSJS Techdegree:
 project 1 - A Random Quote Generator
 ******************************************/
 
+//categories: famous authors, musicians, athletes
 
 //set up the quotes array
 
 var quotes = [];
 
-quotes.push({}, {}, {}, {}, {});
+quotes.push({}, {}, {}, {}, {}, {}, {}, {}, {});
 
 quotes[0].quote = "Never put off till tomorrow what may be done day after tomorrow just as well.";
 quotes[0].source = "Mark Twain";
@@ -16,20 +17,34 @@ quotes[0].source = "Mark Twain";
 
 quotes[1].quote = "Poets have been mysteriously silent on the subject of cheese.";
 quotes[1].source = "G. K. Chesterton";
+quotes[1].citation = "Alarms and Discursions"
 
 
-quotes[2].quote = "Judge a man by his questions rather than by his answers.";
-quotes[2].source = "Voltaire";
+quotes[2].quote = "When you come to a fork in the road, take it.";
+quotes[2].source = "Yogi Berra";
 
 
 quotes[3].quote = "I want to play the guitar very badly, and I do play the guitar very badly.";
 quotes[3].source = "Bono";
 
 
-quotes[4].quote = "If you try and take a cat apart to see how it works, the first thing you have on your hands is a non-working cat.";
+quotes[4].quote = "We are not an endangered species ourselves yet, but this is not for lack of trying.";
 quotes[4].source = "Douglas Adams";
-quotes[4].citation = "The Hitchhiker's Guide to the Galaxy";
-quotes[4].year = 1979;
+quotes[4].citation = "Last Chance To See";
+quotes[4].year = 1992;
+
+
+quotes[5].quote = "All music is folk music. I ain’t never heard a horse sing a song.";
+quotes[5].source = "Louis Armstrong";
+
+quotes[6].quote = "I don’t know anything about music. In my line you don’t have to.";
+quotes[6].source = "Elvis Presley";
+
+quotes[7].quote = "My career was sputtering until I did a 360 and got headed in the right direction.";
+quotes[7].source = "Tracy McGrady";
+
+quotes[8].quote = "I've never lost a game. I just ran out of time.";
+quotes[8].source = "Michael Jordan";
 
 
 
